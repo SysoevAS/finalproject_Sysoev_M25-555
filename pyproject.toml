@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "finalproject-Sysoev-m25-555"
+version = "0.1.0"
+description = "Консольный валютный кошелёк ValutaTrade Hub (финальный проект)"
+authors = ["Sysoev Arseniy"]
+readme = "README.md"
+packages = [{ include = "valutatrade_hub" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prettytable = "^3.11.0"
+requests = "^2.32.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.0"
+
+[tool.poetry.scripts]
+project = "main:main"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+exclude = [
+    "dist",
+    "build",
+    ".venv",
+    "venv",
+    "__pycache__",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
