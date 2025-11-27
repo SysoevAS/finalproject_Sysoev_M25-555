@@ -29,8 +29,11 @@ class DatabaseManager:
     def load_users(self) -> List[User]:
         if not self.users_file.exists():
             return []
-        with self.users_file.open("r", encoding="utf-8") as f:
-            raw = json.load(f)
+        try:
+            with self.users_file.open("r", encoding="utf-8") as f:
+                raw = json.load(f)
+        except json.JSONDecodeError:
+            return []
         return [User.from_json(item) for item in raw]
 
     def save_users(self, users: List[User]) -> None:
@@ -43,8 +46,11 @@ class DatabaseManager:
     def load_portfolios(self) -> List[Portfolio]:
         if not self.portfolios_file.exists():
             return []
-        with self.portfolios_file.open("r", encoding="utf-8") as f:
-            raw = json.load(f)
+        try:
+            with self.portfolios_file.open("r", encoding="utf-8") as f:
+                raw = json.load(f)
+        except json.JSONDecodeError:
+            return []
         return [Portfolio.from_json(item) for item in raw]
 
     def save_portfolios(self, portfolios: List[Portfolio]) -> None:

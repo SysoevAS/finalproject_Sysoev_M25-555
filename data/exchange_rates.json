@@ -1,0 +1,44 @@
+[
+  {
+    "id": "BTC_USD_2025-11-27T12:47:59.189500Z",
+    "from_currency": "BTC",
+    "to_currency": "USD",
+    "rate": 91123.0,
+    "timestamp": "2025-11-27T12:47:59.189500Z",
+    "source": "CoinGeckoClient",
+    "meta": {
+      "raw_id": "",
+      "request_ms": 0,
+      "status_code": 200,
+      "etag": ""
+    }
+  },
+  {
+    "id": "ETH_USD_2025-11-27T12:47:59.189500Z",
+    "from_currency": "ETH",
+    "to_currency": "USD",
+    "rate": 3008.5,
+    "timestamp": "2025-11-27T12:47:59.189500Z",
+    "source": "CoinGeckoClient",
+    "meta": {
+      "raw_id": "",
+      "request_ms": 0,
+      "status_code": 200,
+      "etag": ""
+    }
+  },
+  {
+    "id": "SOL_USD_2025-11-27T12:47:59.189500Z",
+    "from_currency": "SOL",
+    "to_currency": "USD",
+    "rate": 141.28,
+    "timestamp": "2025-11-27T12:47:59.189500Z",
+    "source": "CoinGeckoClient",
+    "meta": {
+      "raw_id": "",
+      "request_ms": 0,
+      "status_code": 200,
+      "etag": ""
+    }
+  }
+]

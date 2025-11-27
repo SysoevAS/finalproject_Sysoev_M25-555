@@ -1,0 +1,9 @@
+[
+  {
+    "user_id": 1,
+    "username": "Kirill",
+    "hashed_password": "419aa65441c4caf2ff338dd9d416ed2836c654a4f476448a2e9d3da1b0916e86",
+    "salt": "33d0655991684cd3",
+    "registration_date": "2025-11-27T12:45:01.388462"
+  }
+]

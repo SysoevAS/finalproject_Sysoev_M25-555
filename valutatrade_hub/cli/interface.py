@@ -6,7 +6,6 @@ from typing import Dict, List, Optional
 from ..core.exceptions import (
     ApiRequestError,
     CurrencyNotFoundError,
-    InsufficientFundsError,
 )
 from ..core.usecases import (
     buy_currency,
