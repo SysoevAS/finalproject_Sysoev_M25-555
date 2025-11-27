@@ -1,20 +1,20 @@
 {
   "pairs": {
     "BTC_USD": {
-      "rate": 91123.0,
-      "updated_at": "2025-11-27T12:47:59.189931Z",
+      "rate": 90842.0,
+      "updated_at": "2025-11-27T14:11:14.723118Z",
       "source": "CoinGeckoClient"
     },
     "ETH_USD": {
-      "rate": 3008.5,
-      "updated_at": "2025-11-27T12:47:59.189931Z",
+      "rate": 2995.36,
+      "updated_at": "2025-11-27T14:11:14.723118Z",
       "source": "CoinGeckoClient"
     },
     "SOL_USD": {
-      "rate": 141.28,
-      "updated_at": "2025-11-27T12:47:59.189931Z",
+      "rate": 141.18,
+      "updated_at": "2025-11-27T14:11:14.723118Z",
       "source": "CoinGeckoClient"
     }
   },
-  "last_refresh": "2025-11-27T12:47:59.443352Z"
+  "last_refresh": "2025-11-27T14:11:14.990599Z"
 }
